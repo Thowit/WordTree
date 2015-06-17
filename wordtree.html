@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		
+		<script type="text/javascript" src=".\wordtree.js"></script>
+		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href=".\look.css"/>
+		
+		<title>WordTree</title>
+	</head>
+	<body>
+		<h1>WordTree</h1>
+		
+		Insert text here
+		<br/>
+		<textarea id="insertTextArea" class="leafs" rows="5"> </textarea>
+		<br/>
+		
+		<label for="insertKwiqArea" id="kwiqLable">Build tree beginning with </label>
+		<input type="text" id="insertKwiqArea" class="inputText"></input>
+		
+		<br/><br/><br/>
+		
+		<svg width=800 height=800 id="svgTreeArea">
+  			<text x="0" y="15" fill="green" transform="rotate(30 20,40)" id="wordTreeText">THE WORDTREE APPEARS HERE</text>
+		</svg>
+		
+	</body>
+</html>
