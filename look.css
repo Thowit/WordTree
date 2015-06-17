@@ -1,0 +1,51 @@
+@CHARSET "ISO-8859-1";
+
+body 
+{
+	background-color: 		#000000;
+	font-family: 			Verdana, Arial, Helvetica, sans-serif;
+	color: 					#999999;
+}
+
+h1 
+{
+	color: 					#87CEEB;
+	font-family: 			Verdana, Arial, Helvetica, sans-serif;
+	text-align: 			center;
+}
+
+.leafs
+{
+	width:					100%;
+	background-color: 		#999999;
+	font-family: 			Verdana, Arial, Helvetica, sans-serif;
+	color: 					#87CEEB;
+}
+
+.container
+{
+	width:					100%;
+}
+
+.contained
+{
+	width:					95%;
+	background-color: 		#999999;
+	font-family: 			Verdana, Arial, Helvetica, sans-serif;
+	color: 					#87CEEB;
+}
+
+.grow
+{
+	float:					left;
+	background-color: 		#999999;
+	font-family: 			Verdana, Arial, Helvetica, sans-serif;
+	text-align: 			center;
+	color: 					#000000;
+}
+
+.inputText
+{
+	background-color: 		#999999;
+	color: 					#000000;
+}
